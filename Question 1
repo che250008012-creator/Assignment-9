@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+struct Item {
+    int id;
+    float cost;
+};
+
+int main() {
+    Item items[6]={
+        {1001,63.2},
+        {1002,42.9},
+        {1003,72.6},
+        {1004,32.9}
+    };
+    for (int i=0; i<6; i++){
+        if (items[i].cost>50.00){
+            cout<<"ID: "<<items[i].id<<" ";
+            cout<<"Cost: "<<items[i].cost<<endl;
+        };
+    };
+    return 0;
+}
