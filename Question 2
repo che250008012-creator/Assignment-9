@@ -15,7 +15,7 @@ int main() {
         {0,126,255},
         {32,42,52}
     };
-    for (int i=0; i<5; i++){
+    for (int i=0; i<3; i++){
         colors[i].red=255-colors[i].red;
         colors[i].green=255-colors[i].green;
         colors[i].blue=255-colors[i].blue;
